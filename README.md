@@ -4,7 +4,8 @@
 
 </div>
 
-```# whoami
+```yaml
+# whoami
 profile:
   name: Berg_Bahn
   role: Administrator @ Skydinse
