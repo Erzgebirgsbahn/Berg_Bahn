@@ -15,14 +15,14 @@ profile:
     - Infrastructure
 ```
 
-## Skydinse
+## 🎮 Skydinse
 
 [![Website](https://img.shields.io/badge/Website-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://skydinse.net/discord)
 
 </div>
 
-## 💡 Skills & Tech Stack
+## 💡 Primary Skills
 
 <table>
 <tr>
