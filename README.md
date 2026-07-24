@@ -72,8 +72,8 @@ profile:
 
 <div align="center">
 
+[![Discord](https://img.shields.io/badge/Discord-%40berg__bahn-5865F2?style=flat-square&logo=discord&logoColor=white)
 [![Twitch](https://img.shields.io/badge/Twitch-berg__bahn-9146FF?style=flat-square&logo=twitch&logoColor=white)](https://twitch.tv/berg_bahn)
-![Discord](https://img.shields.io/badge/Discord-%40berg__bahn-5865F2?style=flat-square&logo=discord&logoColor=white)
 [![Skydinse](https://img.shields.io/badge/Skydinse-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
 
 </div>
