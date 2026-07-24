@@ -66,8 +66,6 @@ profile:
 </tr>
 </table>
 
-<img src="https://cdn.jsdelivr.net/gh/Erzgebirgsbahn/Erzgebirgsbahn@main/assets/particles.svg" width="100%" alt="particles"/>
-
 ## 🔗 Connect
 
 <div align="center">
