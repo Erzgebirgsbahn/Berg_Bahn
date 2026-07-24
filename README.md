@@ -19,25 +19,6 @@ profile:
     - Infrastructure
 ```
 
-## 🎮 Über mich
-
-- 🛠️ Teammitglied bei **Skydinse** – seit **Februar 2023**
-- 🕹️ Fokus auf Minecraft-Netzwerk-Entwicklung (Plugins, Proxy, Infrastruktur)
-- ⚙️ Daneben unterwegs in der Automatisierungstechnik (SPS-Programmierung)
-- 💬 Discord: `@berg_bahn` · 🎥 Twitch: [`berg_bahn`](https://twitch.tv/berg_bahn)
-
-## 🛰️ Skydinse
-
-<div align="center">
-
-| | |
-|---|---|
-| 🏷️ **Rolle** | Teammitglied |
-| 📅 **Dabei seit** | Februar 2023 |
-| 👥 **Registrierte Spieler** | 35.000+ |
-| 🌐 **Website** | [skydinse.net](https://skydinse.net) |
-| 💬 **Discord** | [skydinse.net/discord](https://skydinse.net/discord) |
-
 [![Website](https://img.shields.io/badge/Website-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://skydinse.net/discord)
 
