@@ -8,32 +8,23 @@
 
 <img src="assets/particles.svg" width="100%" alt="particles"/>
 
-<div>
+<div align="center">
 
 <pre>
-<span style="color:#8b5cf6">╭─[</span><span style="color:#00ff88">BERG_BAHN</span><span style="color:#8b5cf6">]</span>
+<span style="color:#00ff88">options:</span>
 
-<span style="color:#00c8ff">▸ NAME</span>
-  <span style="color:#ffffff">Berg_Bahn</span>
+<span style="color:#00c8ff">name:</span> <span style="color:#ffffff">Berg_Bahn</span>
 
-<span style="color:#00c8ff">▸ LOCATION</span>
-  <span style="color:#ffffff">East Germany</span>
+<span style="color:#00c8ff">location:</span> <span style="color:#ffffff">East Germany</span>
 
-<span style="color:#00c8ff">▸ ROLE</span>
-  <span style="color:#00ff88">Administrator</span>
-  <span style="color:#ffffff">@ Skydinse</span>
+<span style="color:#00c8ff">roles:</span> <span style="color:#8b5cf6">Administrator</span> <span style="color:#ffffff">@ Skydinse</span>
 
-<span style="color:#00c8ff">▸ FOCUS</span>
-  <span style="color:#ffffff">
-  Associate Development
-  </span>
-
-  <span style="color:#00ff88">■ Plugins</span>
-  <span style="color:#8b5cf6">■ Proxy Systems</span>
-  <span style="color:#00c8ff">■ Infrastructure</span>
-
-
-<span style="color:#8b5cf6">╰────────────────────</span>
+<span style="color:#00c8ff">focus:</span> <span style="color:#ffffff">
+Associate Development -
+<span style="color:#00ff88">Plugins</span>,
+<span style="color:#8b5cf6">Proxy</span> and
+<span style="color:#00c8ff">Infrastructure</span>
+</span>
 </pre>
 
 </div>
