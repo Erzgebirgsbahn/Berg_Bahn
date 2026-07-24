@@ -11,11 +11,15 @@
 <div align="center">
 
 ```yaml
-options:
-name: Berg_Bahn
-location: East Germany
-roles: Administrator @ Skydinse
-focus: Associate Development - Plugins, Proxy and Infrastructure
+profile:
+  name: Berg_Bahn
+  role: Administrator @ Skydinse
+  location: East Germany
+  focus:
+    - Plugin Development
+    - Proxy Systems
+    - Infrastructure
+
 ```
 
 ## 🎮 Über mich
