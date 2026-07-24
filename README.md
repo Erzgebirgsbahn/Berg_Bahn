@@ -1,9 +1,8 @@
-# Berg_Bahn
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:00BFFF,100:39FF14&height=200&section=header&text=BERG_BAHN&fontSize=70&fontColor=ffffff&fontAlignY=35&animation=fadeIn&desc=Skydinse%20%7C%20Minecraft%20Network%20%26%20Automation&descAlignY=58&descSize=20" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:8A2BE2,50:00BFFF,100:39FF14&amp;height=200&amp;section=header&amp;text=BERG_BAHN&amp;fontSize=70&amp;fontColor=ffffff&amp;fontAlignY=35&amp;animation=fadeIn&amp;desc=Skydinse%20%7C%20Minecraft%20Network%20%26%20Automation&amp;descAlignY=58&amp;descSize=20" width="100%" alt="header"/>
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=Skydinse+Team+seit+02%2F2023;Minecraft+Network+Developer;Automatisierungstechnik+%26+SPS;35.000%2B+registrierte+Spieler" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Skydinse+Team+seit+02%2F2023;Minecraft+Network+Developer;Automatisierungstechnik+%26+SPS;35.000%2B+registrierte+Spieler" alt="Typing SVG"/>
 
 </div>
 
@@ -68,10 +67,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Berg_Bahn&show_icons=true&hide_border=true&bg_color=0d0221&title_color=00F0FF&icon_color=39FF14&text_color=c9d1d9&border_color=BC13FE" width="49%" alt="stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Berg_Bahn&hide_border=true&background=0d0221&stroke=00F0FF&ring=BC13FE&fire=39FF14&currStreakLabel=00F0FF&sideLabels=00F0FF&dates=c9d1d9" width="49%" alt="streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Berg_Bahn&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0d0221&amp;title_color=00F0FF&amp;icon_color=39FF14&amp;text_color=c9d1d9&amp;border_color=BC13FE" width="49%" alt="stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Berg_Bahn&amp;hide_border=true&amp;background=0d0221&amp;stroke=00F0FF&amp;ring=BC13FE&amp;fire=39FF14&amp;currStreakLabel=00F0FF&amp;sideLabels=00F0FF&amp;dates=c9d1d9" width="49%" alt="streak"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Berg_Bahn&layout=compact&hide_border=true&bg_color=0d0221&title_color=00F0FF&text_color=c9d1d9&border_color=BC13FE" width="49%" alt="top languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Berg_Bahn&amp;layout=compact&amp;hide_border=true&amp;bg_color=0d0221&amp;title_color=00F0FF&amp;text_color=c9d1d9&amp;border_color=BC13FE" width="49%" alt="top languages"/>
 
 </div>
 
@@ -85,4 +84,4 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:39FF14,50:00BFFF,100:8A2BE2&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:39FF14,50:00BFFF,100:8A2BE2&amp;height=120&amp;section=footer&amp;animation=fadeIn" width="100%" alt="footer"/>
