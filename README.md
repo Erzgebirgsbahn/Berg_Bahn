@@ -10,23 +10,13 @@
 
 <div align="center">
 
-<pre>
-<span style="color:#00ff88">options:</span>
-
-<span style="color:#00c8ff">name:</span> <span style="color:#ffffff">Berg_Bahn</span>
-
-<span style="color:#00c8ff">location:</span> <span style="color:#ffffff">East Germany</span>
-
-<span style="color:#00c8ff">roles:</span> <span style="color:#8b5cf6">Administrator</span> <span style="color:#ffffff">@ Skydinse</span>
-
-<span style="color:#00c8ff">focus:</span> <span style="color:#ffffff">
-Associate Development -
-<span style="color:#00ff88">Plugins</span>,
-<span style="color:#8b5cf6">Proxy</span> and
-<span style="color:#00c8ff">Infrastructure</span>
-</span>
-</pre>
-
+```yaml
+options:
+  name: Berg_Bahn
+  location: East Germany
+  roles: Administrator @ Skydinse
+  focus: Associate Development - Plugins, Proxy and Infrastructure
+```
 </div>
 
 ## 🎮 Über mich
