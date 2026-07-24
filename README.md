@@ -45,7 +45,7 @@ profile:
 </td>
 <td valign="top" width="50%">
 
-**⚙️ Automatisierungstechnik / SPS**
+**⚙️ Automation technology**
 
 [![GRAFCET](https://img.shields.io/badge/GRAFCET-30363d?style=flat-square)](https://de.wikipedia.org/wiki/GRAFCET#:~:text=GRAFCET%20ist%20eine%20Spezifikationssprache%20f%C3%BCr,aber%20auch%20in%20der%20Verfahrenstechnik.)
 [![VHDL](https://img.shields.io/badge/VHDL-30363d?style=flat-square)](https://en.wikipedia.org/wiki/VHDL)
@@ -54,7 +54,7 @@ profile:
 [![SFC](https://img.shields.io/badge/SFC-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Sequential_function_chart)
 [![SCL/ST](https://img.shields.io/badge/SCL%20%2F%20ST-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Structured_text)
 
-**🗄️ Datenbanken**
+**🗄️ Database**
 
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)](https://mariadb.org/)
