@@ -49,7 +49,7 @@ profile:
 [![GRAFCET](https://img.shields.io/badge/GRAFCET-30363d?style=flat-square)](https://de.wikipedia.org/wiki/GRAFCET#:~:text=GRAFCET%20ist%20eine%20Spezifikationssprache%20f%C3%BCr,aber%20auch%20in%20der%20Verfahrenstechnik.)
 [![VHDL](https://img.shields.io/badge/VHDL-30363d?style=flat-square)](https://en.wikipedia.org/wiki/VHDL)
 [![Verilog](https://img.shields.io/badge/Verilog-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Verilog)
-[![CFC](https://img.shields.io/badge/CFC-30363d?style=flat-square)](https://en.wikipedia.org/wiki/IEC_61131-3)
+[![CFC](https://img.shields.io/badge/CFC-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Continuous_Function_Chart)
 [![SFC](https://img.shields.io/badge/SFC-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Sequential_function_chart)
 [![SCL/ST](https://img.shields.io/badge/SCL%20%2F%20ST-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Structured_text)
 
