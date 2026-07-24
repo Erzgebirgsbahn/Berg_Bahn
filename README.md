@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://cdn.jsdelivr.net/gh/Erzgebirgsbahn/Erzgebirgsbahn@main/assets/header.svg" width="100%" alt="header"/>
-
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=%23Skyd;Minecraft+Network+Developer;automation-technology;Chemistry" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=%23Skyd;Minecraft+Network+Developer;Automation+technology;Chemistry" alt="Typing SVG"/>
 
 </div>
 
