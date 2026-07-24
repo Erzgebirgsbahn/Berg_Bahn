@@ -8,6 +8,14 @@
 
 <img src="assets/particles.svg" width="100%" alt="particles"/>
 
+```
+options:
+name: Berg_Bahn
+lacation: East Germany
+roles: Administrator @ skydinse
+focus: Associate Development - Plugins, Proxy and Infrastructure
+```
+
 ## 🎮 Über mich
 
 - 🛠️ Teammitglied bei **Skydinse** – seit **Februar 2023**
