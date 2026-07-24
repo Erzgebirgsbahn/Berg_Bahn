@@ -8,7 +8,9 @@
 
 <img src="assets/particles.svg" width="100%" alt="particles"/>
 
-<div align="center">
+<img src="./assets/header.svg">
+
+</div>
 
 ```yaml
 profile:
@@ -19,7 +21,6 @@ profile:
     - Plugin Development
     - Proxy Systems
     - Infrastructure
-
 ```
 
 ## 🎮 Über mich
