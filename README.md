@@ -17,7 +17,6 @@ location: East Germany
 roles: Administrator @ Skydinse
 focus: Associate Development - Plugins, Proxy and Infrastructure
 ```
-</div>
 
 ## 🎮 Über mich
 
