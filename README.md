@@ -4,11 +4,9 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=%23Skyd;Minecraft+Network+Developer;automation-technology;Chemistry" alt="Typing SVG"/>
 
-</div>
-
 <img src="assets/particles.svg" width="100%" alt="particles"/>
 
-<img src="./assets/header.svg">
+<img src="assets/header.svg" width="100%" alt="hud divider"/>
 
 </div>
 
@@ -22,6 +20,30 @@ profile:
     - Proxy Systems
     - Infrastructure
 ```
+
+## 🎮 Über mich
+
+- 🛠️ Teammitglied bei **Skydinse** – seit **Februar 2023**
+- 🕹️ Fokus auf Minecraft-Netzwerk-Entwicklung (Plugins, Proxy, Infrastruktur)
+- ⚙️ Daneben unterwegs in der Automatisierungstechnik (SPS-Programmierung)
+- 💬 Discord: `@berg_bahn` · 🎥 Twitch: [`berg_bahn`](https://twitch.tv/berg_bahn)
+
+## 🛰️ Skydinse
+
+<div align="center">
+
+| | |
+|---|---|
+| 🏷️ **Rolle** | Teammitglied |
+| 📅 **Dabei seit** | Februar 2023 |
+| 👥 **Registrierte Spieler** | 35.000+ |
+| 🌐 **Website** | [skydinse.net](https://skydinse.net) |
+| 💬 **Discord** | [skydinse.net/discord](https://skydinse.net/discord) |
+
+[![Website](https://img.shields.io/badge/Website-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://skydinse.net/discord)
+
+</div>
 
 ## 💡 Skills & Tech Stack
 
@@ -76,4 +98,3 @@ profile:
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:39FF14,50:00BFFF,100:8A2BE2&amp;height=120&amp;section=footer&amp;animation=fadeIn" width="100%" alt="footer"/>
-
