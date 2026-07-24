@@ -3,6 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:8A2BE2,50:00BFFF,100:39FF14&amp;height=200&amp;section=header&amp;text=BERG_BAHN&amp;fontSize=70&amp;fontColor=ffffff&amp;fontAlignY=35&amp;animation=fadeIn&amp;desc=Skydinse%20%7C%20Minecraft%20Network%20%26%20Automation&amp;descAlignY=58&amp;descSize=20" width="100%" alt="header"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=24&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=%23Skyd;Minecraft+Network+Developer;Automatisierungstechnik;Chemistry" alt="Typing SVG"/>
+
 </div>
 
 <img src="assets/particles.svg" width="100%" alt="particles"/>
