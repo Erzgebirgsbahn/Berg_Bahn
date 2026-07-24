@@ -5,7 +5,7 @@
 </div>
 
 ```yaml
-# whoami
+# who am I ?
 profile:
   name: Berg_Bahn
   role: Administrator @ Skydinse
