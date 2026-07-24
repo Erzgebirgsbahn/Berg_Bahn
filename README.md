@@ -12,10 +12,10 @@
 
 ```yaml
 options:
-  name: Berg_Bahn
-  location: East Germany
-  roles: Administrator @ Skydinse
-  focus: Associate Development - Plugins, Proxy and Infrastructure
+name: Berg_Bahn
+location: East Germany
+roles: Administrator @ Skydinse
+focus: Associate Development - Plugins, Proxy and Infrastructure
 ```
 </div>
 
