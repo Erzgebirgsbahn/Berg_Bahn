@@ -17,13 +17,11 @@ profile:
     - Process Control System Development
 ```
 
-## 🖥️ Live Prozessleitsystem
+## 🖥️ Live Process Control System — Plant "Xenics 021"
 
 <div align="center">
 
-<img src="assets/scada.png" width="100%" alt="SCADA Dashboard"/>
-
-*Aktualisiert automatisch alle 30 Minuten per GitHub Action – simulierte Prozesswerte (Temperatur, Druck, Tankfüllstand, Pumpen-/Ventilstatus).*
+<img src="assets/scada.png" width="100%" alt="Process Control System Dashboard"/>
 
 </div>
 
