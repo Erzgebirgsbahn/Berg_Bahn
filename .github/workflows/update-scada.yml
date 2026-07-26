@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install matplotlib
+        run: pip install matplotlib tzdata
 
       - name: Generate dashboard
         run: python scripts/generate_scada.py
