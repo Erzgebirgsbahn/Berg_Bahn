@@ -11,14 +11,14 @@ profile:
   name: Berg_Bahn
   role: Administrator @ Skydinse
   since: "02/2023"
-  location: East Germany
+  location: Saxony - East Germany
   focus:
     - Plugin Development
-    - Proxy Systems
     - Infrastructure
+    - Process Control System Development
 ```
 
-## 🎮 Skydinse
+## 🎮 My Part of Skydinse
 
 [![Website](https://img.shields.io/badge/Website-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://skydinse.net/discord)
