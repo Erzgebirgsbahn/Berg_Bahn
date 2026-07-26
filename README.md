@@ -10,7 +10,7 @@
 profile:
   name: Berg_Bahn
   role: Administrator @ Skydinse
-  since: "02/2023"
+  since: 02/2023
   location: Saxony - East Germany
   focus:
     - Plugin Development
