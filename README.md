@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;size=38&amp;duration=3000&amp;pause=1000&amp;color=00F0FF&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=%23Skyd;Minecraft+Network+Developer;Automation+technology;Chemistry" alt="Typing SVG"/>
@@ -18,7 +17,19 @@ profile:
     - Process Control System Development
 ```
 
+## 🖥️ Live Prozessleitsystem
+
+<div align="center">
+
+<img src="assets/scada.png" width="100%" alt="SCADA Dashboard"/>
+
+*Aktualisiert automatisch alle 30 Minuten per GitHub Action – simulierte Prozesswerte (Temperatur, Druck, Tankfüllstand, Pumpen-/Ventilstatus).*
+
+</div>
+
 ## 🎮 Links to the Skydinse Project
+
+<div align="center">
 
 [![Website](https://img.shields.io/badge/Website-skydinse.net-30363d?style=flat-square)](https://skydinse.net)
 [![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://skydinse.net/discord)
