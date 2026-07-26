@@ -1,0 +1,16 @@
+{
+  "temperature": 61.61218702703731,
+  "pressure": 4.116875260243246,
+  "tank_level": 67.37060220861215,
+  "pump_running": true,
+  "valve_open": false,
+  "temp_history": [
+    60.0,
+    61.61218702703731
+  ],
+  "press_history": [
+    4.0,
+    4.116875260243246
+  ],
+  "cycles": 1
+}
