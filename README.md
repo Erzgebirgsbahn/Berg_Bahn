@@ -31,7 +31,7 @@ profile:
 <tr>
 <td valign="top" width="50%">
 
-**🕹️ Minecraft & Netzwerk-Entwicklung**
+**🕹️ Minecraft & Network Development**
 
 [![Skript](https://img.shields.io/badge/Skript%20(.sk)-30363d?style=flat-square)](https://skriptlang.github.io/Skript/)
 [![Paper API](https://img.shields.io/badge/Paper%20API-30363d?style=flat-square)](https://papermc.io/software/paper)
@@ -48,7 +48,7 @@ profile:
 
 **⚙️ Automation technology**
 
-[![GRAFCET](https://img.shields.io/badge/GRAFCET-30363d?style=flat-square)](https://de.wikipedia.org/wiki/GRAFCET#:~:text=GRAFCET%20ist%20eine%20Spezifikationssprache%20f%C3%BCr,aber%20auch%20in%20der%20Verfahrenstechnik.)
+[![GRAFCET](https://img.shields.io/badge/GRAFCET-30363d?style=flat-square)](https://de.wikipedia.org/wiki/GRAFCET)
 [![VHDL](https://img.shields.io/badge/VHDL-30363d?style=flat-square)](https://en.wikipedia.org/wiki/VHDL)
 [![Verilog](https://img.shields.io/badge/Verilog-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Verilog)
 [![CFC](https://img.shields.io/badge/CFC-30363d?style=flat-square)](https://en.wikipedia.org/wiki/Continuous_Function_Chart)
