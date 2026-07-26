@@ -1,7 +1,8 @@
 import json
 import os
 import random
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import matplotlib
 matplotlib.use("Agg")
@@ -25,7 +26,6 @@ CYAN = "#00F0FF"
 
 # Level switch thresholds shared by every vessel (percent of fill height)
 LEVELS = [("H2", 95), ("H1", 80), ("M", 50), ("L1", 20), ("L2", 5)]
-LEVELS_B2 = [("H2 (MAX)", 95), ("H1", 80), ("M", 50), ("L1", 20), ("L2", 5)]
 
 PLANT_NAME = "XENICS 021"
 
@@ -124,8 +124,13 @@ def draw_tank(ax, x0, y0, w, h, level_pct, levels, level_color, label):
         ax.plot([x0 + w, x0 + w + 0.15], [ty, ty], color=color, linewidth=2)
         ax.text(x0 + w + 0.22, ty, name, color=color, fontsize=8, fontfamily="monospace", va="center")
     ax.text(x0, y0 + h + 0.45, label, color=TEXT, fontsize=11, fontweight="bold", fontfamily="monospace")
-    ax.text(x0 + w / 2, y0 - 0.45, f"{level_pct:.0f}%", color=level_color, fontsize=10,
-            fontweight="bold", fontfamily="monospace", ha="center")
+
+    # Continuous level readout, floating at the liquid surface height, to the right of the switches
+    surface_y = min(max(y0 + fill_h, y0 + 0.3), y0 + h - 0.3)
+    ax.plot([x0 + w + 0.6, x0 + w + 1.0], [surface_y, surface_y], color=level_color, linewidth=1,
+            linestyle=":", alpha=0.7)
+    ax.text(x0 + w + 1.1, surface_y, f"{level_pct:.0f}%", color=level_color, fontsize=10,
+            fontweight="bold", fontfamily="monospace", va="center")
 
 
 def draw_valve(ax, x, y, open_state, label):
@@ -141,22 +146,22 @@ def draw_valve(ax, x, y, open_state, label):
 
 
 def draw_pump(ax, x, y, rpm, running):
-    r = 0.45
+    r = 0.55
     color = GREEN if running else GRID_DIM
-    ax.add_patch(Circle((x, y), r, fill=False, edgecolor=color, linewidth=2))
-    ax.add_patch(Polygon([(x - r * 0.4, y - r * 0.4), (x - r * 0.4, y + r * 0.4), (x + r * 0.5, y)],
-                          closed=True, facecolor=color, alpha=0.7))
+    ax.add_patch(Circle((x, y), r, fill=True, facecolor=PANEL_BG, edgecolor=color, linewidth=2.2))
+    ax.add_patch(Polygon([(x - r * 0.45, y - r * 0.5), (x - r * 0.45, y + r * 0.5), (x + r * 0.55, y)],
+                          closed=True, facecolor=color, edgecolor=color, alpha=0.9))
     readout_box(ax, x - 0.6, y - r - 0.55, 1.2, 0.4, f"{rpm:.0f} RPM", color)
     ax.text(x, y - r - 0.85, "PUMP P1", color=TEXT, fontsize=8, fontfamily="monospace", ha="center")
 
 
-def draw_stirrer(ax, x, y, rpm, active):
+def draw_stirrer(ax, x, y, tank_top, rpm, active):
     color = GREEN if active else GRID_DIM
-    ax.add_patch(Circle((x, y), 0.16, fill=False, edgecolor=color, linewidth=2))
+    ax.plot([x, x], [tank_top, y - 0.16], color=color, linewidth=1.5)
+    ax.add_patch(Circle((x, y), 0.16, fill=True, facecolor=BG, edgecolor=color, linewidth=2))
     ax.text(x, y, "M", color=color, fontsize=7, fontfamily="monospace", fontweight="bold",
             ha="center", va="center")
-    ax.plot([x, x], [y - 0.16, y - 0.4], color=color, linewidth=1.5)
-    readout_box(ax, x - 0.6, y - 0.85, 1.2, 0.4, f"{rpm:.2f} RPM", color)
+    readout_box(ax, x - 0.7, y + 0.25, 1.4, 0.4, f"{rpm:.2f} RPM", color)
 
 
 def draw_pipe(ax, points, color=TEXT):
@@ -179,42 +184,45 @@ PHASE_LABELS = {
 
 
 def render(state):
-    fig = plt.figure(figsize=(14, 10), dpi=150, facecolor=BG)
+    fig = plt.figure(figsize=(15, 10), dpi=150, facecolor=BG)
     ax = fig.add_axes([0, 0, 1, 1])
     ax.set_facecolor(BG)
-    ax.set_xlim(0, 19.5)
+    ax.set_xlim(-2, 19.5)
     ax.set_ylim(0, 17)
     ax.axis("off")
 
     # Header
     ax.text(0.3, 16.3, f"{PLANT_NAME} // PROCESS CONTROL SYSTEM", color=CYAN, fontsize=20,
             fontweight="bold", fontfamily="monospace", va="center")
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    ts = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M %Z")
     ax.text(19.2, 16.3, f"LAST UPDATE: {ts}", color=TEXT, fontsize=10,
             fontfamily="monospace", va="center", ha="right")
     phase_text = PHASE_LABELS.get(state["phase"], state["phase"])
     ax.text(0.3, 15.8, f"CYCLE #{state['cycles']}   |   PHASE: {phase_text}", color=ORANGE,
             fontsize=10, fontfamily="monospace", va="center")
-    ax.plot([0.3, 19.2], [15.4, 15.4], color=GRID, linewidth=1)
+    ax.plot([-2, 19.2], [15.4, 15.4], color=GRID, linewidth=1)
 
     # Tank 1 (feed tank)
-    draw_tank(ax, 1, 11.5, 3, 3, state["tank1_level"], LEVELS, RED, "TANK 1 (B1) - FEED")
+    draw_tank(ax, 1, 11.5, 3, 3, state["tank1_level"], LEVELS, RED, "TANK 1 (T1) - FEED")
+    ax.annotate("", xy=(1.0, 13.0), xytext=(-1.7, 13.0),
+                arrowprops=dict(arrowstyle="->", color=GREEN, linewidth=1.5))
+    ax.text(-1.7, 13.25, "PRODUCT 0", color=GREEN, fontsize=8, fontfamily="monospace", ha="left")
 
-    # Pipe B1 -> V1 -> Tank 2
+    # Pipe T1 -> V1 -> Tank 2
     draw_pipe(ax, [(2.5, 11.5), (2.5, 10.6), (6.3, 10.6)])
     draw_valve(ax, 6.3, 10.6, state["v1_open"], "V1")
-    draw_pipe(ax, [(6.3, 10.6), (7.3, 10.6), (7.3, 8.5)])
+    draw_pipe(ax, [(6.3, 10.6), (6.3, 8.5)])
 
     # Tank 2 (reactor)
-    draw_tank(ax, 5.8, 5.5, 3, 3, state["tank2_level"], LEVELS_B2, GREEN, "TANK 2 (B2)")
-    draw_stirrer(ax, 8.4, 9.1, state["stirrer_rpm"], state["phase"] == "MIX")
-    ax.annotate("", xy=(5.8, 6.9), xytext=(4.7, 6.9),
+    draw_tank(ax, 5.8, 5.5, 3, 3, state["tank2_level"], LEVELS, GREEN, "TANK 2 (T2)")
+    draw_stirrer(ax, 7.3, 9.1, 8.5, state["stirrer_rpm"], state["phase"] == "MIX")
+    ax.annotate("", xy=(5.8, 7.8), xytext=(4.7, 7.8),
                 arrowprops=dict(arrowstyle="->", color=ORANGE, linewidth=1.5))
-    ax.text(2.9, 6.9, "SOLIDS FEED", color=ORANGE, fontsize=8, fontfamily="monospace", va="center")
+    ax.text(2.9, 7.8, "SOLIDS FEED", color=ORANGE, fontsize=8, fontfamily="monospace", va="center")
 
-    # Pipe Tank2 -> WO1 -> Pump
+    # Pipe Tank2 -> VV1 -> Pump
     draw_pipe(ax, [(7.3, 5.5), (7.3, 4.2)])
-    draw_valve(ax, 7.3, 4.2, state["wo1_percent"] > 5, "WO1")
+    draw_valve(ax, 7.3, 4.2, state["wo1_percent"] > 5, "VV1")
     readout_box(ax, 6.7, 3.15, 1.2, 0.45, f"{state['wo1_percent']:.0f}%", ORANGE)
     ax.text(7.3, 2.85, "CONTROL VALVE", color=TEXT, fontsize=8, fontfamily="monospace", ha="center")
     draw_pipe(ax, [(7.3, 4.2), (11.0, 4.2)])
